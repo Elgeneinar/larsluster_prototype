@@ -1060,6 +1060,17 @@ ul.social-buttons li a.facebook:hover {
 	color: #fff;	
 }
 
+ul.social-buttons li a.instagram {
+	border: 2px solid #833AB4;
+	color: #833AB4;
+}
+
+ul.social-buttons li a.instagram:hover {
+	border: 2px solid #833AB4;
+	background-color: #833AB4;
+	color: #fff;
+}
+
 ul.social-buttons li a.linkedin {
 	border: 2px solid #0976b4;
 	color: #0976b4;
