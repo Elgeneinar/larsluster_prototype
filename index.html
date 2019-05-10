@@ -31,8 +31,10 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/animate.css" rel="stylesheet">
 
+
     <!-- Custom CSS -->
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/extra.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="assets/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -80,6 +82,8 @@
     });
     </script>
 
+    <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+
 </head>
 
 <body id="page-top" class="index">
@@ -120,45 +124,12 @@
                             <li><a href="single-post-gallery-fullwidth.html">Other projects...</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">Category <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="category-archive.html">Category Archive</a></li>
-                            <li><a href="category-archive-2-col.html">Category Archive 2 Columns</a></li>
-                            <li><a href="category-archive-3-col-fullwidth.html">Category Fullwidth</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">Portfolio <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="single-portfolio.html">Single Portfolio</a></li>
-                            <li><a href="single-portfolio-gallery.html">Single Portfolio Gallery</a></li>
-                            <li><a href="single-portfolio-video.html">Single Portfolio Video</a></li>
-                            <li><a href="filterable-portfolio-3-col.html">Filterable Portfolio 3 Columns</a></li>
-                            <li><a href="filterable-portfolio-4-col.html">Filterable Portfolio 4 Columns</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">Pages <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="404.html">404</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#search"><i class="pe-7s-search"></i></a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
     </nav>
-
-    <div id="search-wrapper">
-        <button type="button" class="close">×</button>
-        <form>
-            <input type="search" value="" placeholder="type keyword(s) here" />
-            <button type="submit" class="btn btn-primary">Search</button>
-        </form>
-    </div>
 
     <!-- Header -->
     <header id="headerwrap" class="fullheight">
@@ -264,19 +235,32 @@
                     </div>
                 </div>
                 <div class="row">
+
                     <div class="col-md-6">
-                        <div id="message"></div>
-                        <form method="post" action="sendemail.php" id="contactform">
-                            <p><input type="text" class="form-control" name="name" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name." /></p>
-                            <p><input type="text" class="form-control" name="email" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address." /></p>
-                            <p><input type="text" class="form-control" name="subject" placeholder="Subject *" id="subject" required data-validation-required-message="Please enter a subject." /></p>
-                            <p><textarea name="comments" class="form-control" id="comments" placeholder="Your Message *" required data-validation-required-message="Please enter a message."></textarea></p>
-                            <input class="btn btn-outlined btn-primary pull-right" type="submit" name="submit" value="Submit" />
-                        </form>
+                        <div class="floatl">
+                            <h3>Facebook</h3>
+                                <div class="flexible-social-button wow fadeInUp">
+                                    <a class="facebook" href="https://www.facebook.com/profile.php?id=100010377312443"><i class="fab fa-facebook"></i></a>
+                                </div>
+
+                            <h3>Instagram</h3>
+                            <div class="flexible-social-button wow fadeInUp">
+                                <a class="instagram" href="https://www.instagram.com/larsluster"><i class="fab fa-instagram"></i></a>
+                                <a class="instagram" href="https://www.instagram.com/tanketiggeren"><i class="fab fa-instagram"></i></a>
+                                <a class="instagram" href="https://www.instagram.com/silverweedsong"><i class="fab fa-instagram"></i></a>
+                            </div>
+                            <h3>Linkedin</h3>
+                            <div class="flexible-social-button wow fadeInUp">
+                                <a class="linkedin" href="https://www.linkedin.com/in/lars-møster-79aaa914b"><i class="fab fa-linkedin"> </i></a>
+                            </div>
+                            <h3>lars.moster@hotmail.com</h3>
+                        </div>
+
                     </div>
+
                     <div class="col-md-6">
-                        <p>I'm available for all kinds of projects, be they anything from interviews, shoots, art or writing workshops, collaborations, meet-ups, leading exercises, speaking at events, you name it!</p>
-                        <p>Not sure your gig is right for me? Send me a pitch and we can figgure it out together. I'm always excited to meet new people or get into new kinds of projects! Want me to teach a class on game design? No problem! How about writing for your website? Let's do it! Star in your new movie? I'll learn it! Anything cool you throw at me, I'll give it my best shot. So what are you waiting for? </p>
+                        <p class="f12pt">I'm available for all kinds of projects, be they anything from interviews, shoots, art or writing workshops, collaborations, meet-ups, leading exercises, speaking at events, you name it!</p>
+                        <p class="f12pt">Not sure your gig is right for me? Send me a pitch and we can figgure it out together. I'm always excited to meet new people or get into new kinds of projects! Want me to teach a class on game design? No problem! How about writing for your website? Let's do it! Star in your new movie? I'll learn it! Anything cool you throw at me, I'll give it my best shot. So what are you waiting for? </p>
                     </div>
                 </div>
             </div>
@@ -292,9 +276,11 @@
 
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons wow fadeInUp">
-                        <li><a class="facebook" href="https://www.facebook.com/profile.php?id=100010377312443"><i class="fa fa-facebook"></i></a></li>
-                        <li><a class="instagram" href="https://www.instagram.com/larsluster"><i class="fa fa-instagram"></i></a></li>
-                        <li><a class="linkedin" href="https://www.linkedin.com/in/lars-møster-79aaa914b"><i class="fa fa-linkedin"> </i></a></li>
+                        <li><a class="facebook" href="https://www.facebook.com/profile.php?id=100010377312443"><i class="fab fa-facebook"></i></a></li>
+                        <li><a class="instagram" href="https://www.instagram.com/larsluster"><i class="fab fa-instagram"></i></a></li>
+                        <li><a class="instagram" href="https://www.instagram.com/tanketiggeren"><i class="fab fa-instagram"></i></a></li>
+                        <li><a class="instagram" href="https://www.instagram.com/silverweedsong"><i class="fab fa-instagram"></i></a></li>
+                        <li><a class="linkedin" href="https://www.linkedin.com/in/lars-møster-79aaa914b"><i class="fab fa-linkedin"> </i></a></li>
                     </ul>
                 </div>
             </div>
