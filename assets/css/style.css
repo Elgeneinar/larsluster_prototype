@@ -1002,8 +1002,30 @@ textarea#comments {
 /*-----------------------------------------------------------------------------------*/
 /*  FOOTER
 /*-----------------------------------------------------------------------------------*/
+
+.social-icon {
+	width: 3em;
+	height: 3em;
+}
+
+.social-icon:hover{
+	transform: scale(1.1);
+}
+
+.social-button {
+
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+
+.social-button:hover svg{
+	transform: scale(1.1);
+}
+
+
 aside.clients img {
-	margin:50px auto
+	margin:50px auto;
 }
 
 footer {
